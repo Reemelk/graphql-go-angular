@@ -1,0 +1,6 @@
+<h1>USERS</h1>
+<ul *ngFor="let u of users$ | async">
+  <p>ID: {{ u.id }}</p>
+  <p>Lastname: {{ u.lastname }}</p>
+  <p>Firsname: {{ u.firstname }}</p>
+</ul>
